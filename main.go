@@ -6,7 +6,6 @@ package main
 import (
 	"os"
 
-	"fortio.org/cli"
 	"github.com/ansipixels/NAME/cli"
 )
 
