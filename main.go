@@ -70,7 +70,7 @@ func Main() int {
 		}
 		errMP = pprof.WriteHeapProfile(f)
 		if errMP != nil {
-			return log.FErrf("can't write mem profile: %v", err)
+			return log.FErrf("can't write mem profile: %v", errMP)
 		}
 		log.Infof("Wrote memory profile to %s", *fMemprofile)
 		_ = f.Close()

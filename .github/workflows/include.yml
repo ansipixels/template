@@ -9,6 +9,9 @@ on:
     pull_request:
       branches: [ main ]
 
+permissions:
+  contents: read
+
 jobs:
     call-gochecks:
         uses: ansipixels/workflows/.github/workflows/gochecks.yml@main
