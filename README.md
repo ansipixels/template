@@ -18,7 +18,7 @@ CGO_ENABLED=0 go run github.com/ansipixels/NAME@latest  # to run without install
 
 or
 ```
-docker run -ti ansipixels/NAME
+docker run -ti ghcr.io/ansipixels/NAME
 ```
 
 
