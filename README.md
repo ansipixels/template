@@ -21,6 +21,11 @@ or
 docker run -ti ghcr.io/ansipixels/NAME
 ```
 
+or
+```
+brew install ansipixels/tap/NAME
+```
+
 
 ## Usage
 
